@@ -1,0 +1,56 @@
+En las temporadas de la formula 1 se realizan distintos Grand Prix. En cada uno
+los corredores obtienen puntos dependiendo de su posicion en la carrera. Al final de la temporada,
+el corredor que haya acumulado mas puntos entre todos los Grand Prix es coronado como el campeon del 
+mundo. 
+
+Desde el 2003 la puntuacion se trabaja de la siguiente manera:
+Puesto - Puntos
+01     -      10
+02     -      08
+03     -      06
+04     -      05
+05     -      04
+06     -      03
+07     -      02
+08     -      01
+
+En el 2010 se actualizó a la siguiente tabla
+Puesto - Puntos
+01     -      25
+02     -      18
+03     -      15
+04     -      12
+05     -      10
+06     -      08
+07     -      06
+08     -      04
+09     -      02
+10     -      01
+
+Este cambio trajo mucha especulación sobre como hubieran sido 
+los resultados en el pasado si se hubiera usado el sistema de puntuación actual.
+La FIA (International Federation of Automobile) me contrató para hacer un programa que,
+dados los resultados de cada carrera de una temporada determine el Campeón Mundial para
+diferentes sistemas de puntaje.
+
+## INPUT ##
+La entrada del programa comienza con dos números enteros G y P. G representa la cantidad de
+Grand Prix (carreras) y debe estar entre 1 y 100. P representa el numero de pilotos y también
+debe estar entre 1 y 100. Los pilotos son representados con enteros desde 1 hasta P.
+
+Luego las siguientes G lineas representan los resultados de una carrera, y contienen Q enteros separados por espacios.
+En cada línea, el iésimo npumero indica el orden de llegada el piloto i. (1 3 5, sería que el primer piloto
+llegó en el primer lugar, el segundo piloto en el tercer lugar y el tercer piloto en el quinto lugar).
+
+La siguiente línea contiene un solo entero S que representa el número de sistemas de puntajes. Debe ir de 1 a 10.
+
+Luego cada una de las S líneas contienen una descripción de un sistema de puntajes. Este descripción comienza con un entero
+K donde ( 1 <= K <= P), indicando el último puesto en recibir puntos, seguido por un espacio en blanco, seguido por Ki enteros separados
+por espacios indicando el numero de puntos a ser asignados. (el primer entero indica la cantidad de puntos para el primer lugar y asi conse
+cutivamente).
+
+Por ultimo se coloca una linea conteniendo solo dos zeros separados por un espacio en blanco.
+
+## OUTPUT ##
+Se debe imprimir una linea por cada sistema de puntaje conteniendo el identificador (el entero) del piloto que quedó como campeón del mundo. 
+Si más de un piloto queda como campeón (empates), la línea debe contener a todos los campeones en orden creciente de identificador, separados por espacios.

@@ -1,4 +1,4 @@
-# prueba-tecnica
+# Prueba-Tecnica
 
 Este repositorio contiene los ejercicios realizados por Ángel Moreno para la prueba técnica dentro de GBM
 proporcionada por el Sr. Juan Graciano.

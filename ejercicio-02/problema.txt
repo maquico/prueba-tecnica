@@ -49,7 +49,7 @@ K donde ( 1 <= K <= P), indicando el último puesto en recibir puntos, seguido p
 por espacios indicando el numero de puntos a ser asignados. (el primer entero indica la cantidad de puntos para el primer lugar y asi conse
 cutivamente).
 
-Por ultimo se coloca una linea conteniendo solo dos zeros separados por un espacio en blanco.
+Por ultimo, se coloca una linea conteniendo solo dos zeros separados por un espacio en blanco luego del ultimo caso de analisis.
 
 ## OUTPUT ##
 Se debe imprimir una linea por cada sistema de puntaje conteniendo el identificador (el entero) del piloto que quedó como campeón del mundo. 

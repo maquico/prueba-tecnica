@@ -1,0 +1,7 @@
+En una tienda quieren conocer mejor a sus clientes para crear campañas de marketing
+personalizadas. Me piden desarrollar un modelo de clasificacion usando Keras que tome 
+en cuenta la frecuencia de compra de los clientes, sus habitos de gastos y la cantidad máxima
+que gastan en la tienda. El objetivo del modelo es clasificar los clientes en 3 categorias: bajo,
+medio y alto valor.
+
+Usar la data de entrenamiento en el archivo data_customer_classification

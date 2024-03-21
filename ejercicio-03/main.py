@@ -34,19 +34,21 @@ def min_saltos(objetivo):
         queue.append((punto + saltos + 1, saltos + 1))
 
     return -1
+
+def main():
+    punto_inicial = 0
+    casos = Entero("Casos", 0, 1, 1000)
+    validar_entrada(casos, "casos")
+
+    lista_objetivos=[]
+    for i in range(casos.valor):
+        objetivo = Entero("Objetivo", 0, 1, 106)
+        validar_entrada(objetivo, "objetivo")
+        lista_objetivos.append(objetivo.valor)
+
+    for objetivo in lista_objetivos:
+        print(min_saltos(objetivo))
     
-
-punto_inicial = 0
-casos = Entero("Casos", 0, 1, 1000)
-validar_entrada(casos, "casos")
-
-lista_objetivos=[]
-for i in range(casos.valor):
-    objetivo = Entero("Objetivo", 0, 1, 106)
-    validar_entrada(objetivo, "objetivo")
-    lista_objetivos.append(objetivo.valor)
-
-for objetivo in lista_objetivos:
-    print(f"El objetivo es {objetivo}")
-    print("Minimo de saltos: ", min_saltos(objetivo))
+if __name__ == "__main__":
+   main()
 

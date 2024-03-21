@@ -1,1 +1,5 @@
-El cliente pertenece a la clase: medium
+1
+3
+2
+3
+4

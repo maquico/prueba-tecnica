@@ -1,0 +1,17 @@
+Te encuentras en el punto 0 del eje X y te quieres muver a un punto de valor entero
+x > 0. Puedes hacer varios saltos. Imagina que estas actualmente en el punto y (el punto y puede ser negativo)
+y saltas por la k-ésima vez, puedes:
+    Saltar al punto y + k o
+    Saltar al punto y-1
+
+Cual es el minimo numero de saltos que necesitas para alcanzar el punto x?
+
+## INPUT ##
+La primera linea contiene un entero t (1 <= t <= 1000) - el numero de test cases.
+
+La primera y única linea de cada test case contiene el único entero x (1 <= x <= 106) - el punto
+de destino.
+
+## OUTPUT
+Para cada test case, imprimir el minimo numero de saltos para alcanzar x. Puede ser probado que 
+podemos alcanzar cualquier punto entero x.

@@ -100,8 +100,8 @@ def calcular_ganadores(puntos_sistema):
     max_puntos = max(puntos_sistema)
     ganadores = [i + 1 for i, puntos in enumerate(puntos_sistema) if puntos == max_puntos]
     return ganadores
-    
-if __name__ == "__main__":
+
+def main():
     casos = []
     while True:
         caso = Caso(
@@ -146,6 +146,9 @@ if __name__ == "__main__":
             ganadores_caso.append(ganadores_sistema)
         for ganadores in ganadores_caso:
             print(' '.join(map(str, ganadores)))
+    
+if __name__ == "__main__":
+    main()
 
 
         

@@ -3,4 +3,4 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from main import detectar_palindromo
 
-detectar_palindromo("ana")
+print(detectar_palindromo("ana"))
